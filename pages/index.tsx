@@ -97,8 +97,8 @@ const Home: NextPage = () => {
               ))}
             </div>
             <div className="w-1/3 mx-5">
-              {[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1].map(() => (
-                <div className="flex flex-col mx-5 w-full mb-5">
+              {[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1].map((v, i) => (
+                <div key={i} className="flex flex-col mx-5 w-full mb-5">
                   <div className="rounded-[14px] overflow-hidden w-full h-[250px]">
 
                     <img className="w-full h-full " src="https://picsum.photos/540/250?random=2" />
@@ -116,8 +116,8 @@ const Home: NextPage = () => {
               ))}
             </div>
             <div className="w-1/3 mx-5">
-              {[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1].map(() => (
-                <div className="flex flex-col mx-5 w-full mb-5">
+              {[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1].map((v, i) => (
+                <div key={i} className="flex flex-col mx-5 w-full mb-5">
                   <div className="rounded-[14px] overflow-hidden w-full h-[250px]">
 
                     <img className="w-full h-full " src="https://picsum.photos/540/250?random=2" />

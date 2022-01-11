@@ -5,7 +5,7 @@ const Nav: NextPage = () => {
         <nav className="flex backdrop-blur-3xl w-full top-0 h-[80px] fixed z-[1000] items-center justify-between p-5">
             <div className=" w-fit items-center flex justify-around">
                 <i className="far fa-bars w-5 h-5 cursor-pointer mx-2"></i>
-                <div className="w-[40px] h-[40px] cursor-pointer">
+                <div className="w-[40px] h-[40px] cursor-pointer" onClick={() => window.location.href = '/'}>
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
                         viewBox="0 0 163.3 154.2" xmlSpace="preserve">
                         <style type="text/css" jsx>{`
